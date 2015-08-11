@@ -12,7 +12,7 @@ class CoinChanger
 	end	
 	
 	def coins_for_amount(coin, amount)
-		coins = amount / coins
+		coins = amount / coin
 		coins.times.map { coin }	
 	end	
 end 	
