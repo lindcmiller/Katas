@@ -18,7 +18,7 @@ describe CoinChanger do
 			expect(changer.make_change_for(25)).to eq[25]
 		end
 		it "gives quarters for 1 dollar" do
-			expect(changer.make_change_for(100)).to eq[25,25,25,25]
+			expect(changer.maked_change_for(100)).to eq[25,25,25,25]
 		end
 		it "gives lots of change for nearly a dollar" do
 			expect(changer.make_change_for(97)).to eq[25,25,25,10,10,1,1]
