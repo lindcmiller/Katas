@@ -6,6 +6,7 @@ class CoinChanger
         result << coin
         remainder -= coin
       end
+    end
+    result
   end
-  result
 end
