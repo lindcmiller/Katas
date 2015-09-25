@@ -14,7 +14,7 @@ describe "#update_quality" do
 
       describe "#sell_in" do
         it "decreases by 1" do
-          expect(item.sell_in).to eq initial_sell_in-1
+          expect(item.sell_in).to eq(initial_sell_in-1)
         end
       end
 
